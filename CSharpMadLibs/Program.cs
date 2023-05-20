@@ -47,11 +47,11 @@ namespace CSharpMadLibs
             Console.WriteLine("Make your own hilarious sentences with Mad Libs!");
             Console.WriteLine();
             bool programIsRunning = true;
-            while (programIsRunning == true)
+            while (programIsRunning == true) //keeps program running until option 4 is chosen
             {
                 Console.WriteLine("Please select a story by typing in its number (1,2,3, or 4 to exit): ");
                 PrintOptions();
-                int userChoice = Convert.ToInt32(Console.ReadLine());
+                int userChoice = Convert.ToInt32(Console.ReadLine()); //lets ReadLine read an integer
 
                 if (userChoice == 1)
                 {
@@ -141,9 +141,9 @@ namespace CSharpMadLibs
                 {
                     Console.WriteLine();
                     Console.WriteLine("Thank you for playing!");
-                    programIsRunning = false;
+                    programIsRunning = false; //ends the program 
                 }
-                else
+                else //invalid number option
                 {
                     Console.WriteLine();
                     Console.WriteLine("Invalid Number");
