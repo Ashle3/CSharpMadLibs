@@ -5,9 +5,8 @@ Since the C# language is so widely used in the software development industry, I 
 This software essentially acts as a Mad Libs game and generates silly sentences with your inputs. There are three different sentence structures to choose from. Once you choose a sentence, you are then given prompts for that specific sentence (i.e. "Enter an adjective"). The software then takes your answers to those prompts, and inserts them into the sentence structure to create your own silly sentence. 
 
 My purpose for creating this software, was to expand my knowledge of the C# language, by creating a simple Mad Libs game.
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+Software Demo Video https://www.youtube.com/watch?v=krVi53i3cS8
 
 # Development Environment
 
